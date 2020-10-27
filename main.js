@@ -58,8 +58,6 @@ $(document).ready(()=>{
             let comics = response.data.data.results;
             let salida = '';
 
-            console.log(comics)
-
             if(Object.keys(comics).length>=1){
               $.each(comics, (index, comic) => {
 
